@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MK体育 · 简明产品指南</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #fafafa;
+      color: #1e1e1e;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      line-height: 1.7;
+      padding: 2.5rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .page {
+      max-width: 720px;
+      width: 100%;
+    }
+
+    /* 标题层次 */
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 350;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+      color: #111;
+      line-height: 1.25;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-top: 3rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 0.5rem;
+      color: #222;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 450;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      color: #2a2a2a;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #3b3b3b;
+      margin-bottom: 1.2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 0.7rem;
+    }
+
+    li::before {
+      content: "·";
+      position: absolute;
+      left: 0.3rem;
+      color: #9a9a9a;
+      font-weight: bold;
+    }
+
+    a {
+      color: #1a5c8c;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease;
+    }
+
+    a:hover {
+      border-bottom-color: #1a5c8c;
+    }
+
+    /* 卡片与分割 */
+    .section-card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 2rem 2.2rem;
+      margin: 2rem 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(0, 0, 0, 0.02);
+    }
+
+    .hero-tagline {
+      font-size: 1.1rem;
+      color: #555;
+      margin-top: -0.5rem;
+      margin-bottom: 2rem;
+      font-weight: 340;
+    }
+
+    .highlight-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin: 2rem 0 1rem;
+    }
+
+    .highlight-item {
+      flex: 1 1 180px;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 1.5rem 1.2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02), 0 0 0 1px #f0f0f0;
+    }
+
+    .highlight-item h4 {
+      font-weight: 450;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: #111;
+    }
+
+    .highlight-item p {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+      color: #555;
+    }
+
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .faq-item strong {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+      color: #1e1e1e;
+    }
+
+    .reminder-box {
+      background: #f4f6fa;
+      border-radius: 18px;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      border-left: 4px solid #8499b4;
+    }
+
+    .reminder-box p {
+      margin-bottom: 0.3rem;
+    }
+
+    .inline-link {
+      white-space: nowrap;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e2e2e2;
+      margin: 2.5rem 0;
+    }
+
+    .footer-note {
+      font-size: 0.85rem;
+      color: #999;
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 500px) {
+      body { padding: 1.5rem 1rem; }
+      h1 { font-size: 1.8rem; }
+      .section-card { padding: 1.5rem; }
+      .highlight-item { flex: 1 1 100%; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- hero 区域 -->
+  <h1>MK体育<br>简约、清晰、可触达</h1>
+  <div class="hero-tagline">一份关于平台功能与使用方式的简明产品说明</div>
+
+  <!-- 摘要卡片 -->
+  <div class="section-card">
+    <p><strong>MK体育</strong> 是一个面向运动爱好者的信息与互动平台。它整合了赛事资讯、运动数据以及社区化内容，帮助用户更便捷地关注自己感兴趣的体育项目。无论你习惯在通勤途中浏览比分，还是希望偶尔查看深度文章，这个平台都提供了相对克制的浏览环境。</p>
+    <p>如果你在寻找一个信息密度适中、界面偏清爽的体育内容入口，<a href="https://m-mobile-mk.com">MK体育</a> 值得你花几分钟熟悉。下文整理了它的几个主要特点，以及一些实用的访问建议。</p>
+  </div>
+
+  <!-- 亮点：轻盈但有用 -->
+  <h2>功能亮点</h2>
+  <div class="highlight-grid">
+    <div class="highlight-item">
+      <h4>实时赛果</h4>
+      <p>覆盖足球、篮球、网球等多类赛事，比分更新节奏紧凑，不堆砌冗余信息。</p>
+    </div>
+    <div class="highlight-item">
+      <h4>简洁导航</h4>
+      <p>顶部菜单与分类清晰，从联赛到球队页面只需两次点击，学习成本极低。</p>
+    </div>
+    <div class="highlight-item">
+      <h4>内容克制</h4>
+      <p>没有过度推送或弹窗干扰，资讯与数据以列表、卡片形式有序呈现。</p>
+    </div>
+  </div>
+
+  <!-- 使用场景与建议 -->
+  <h2>使用场景与建议</h2>
+  <p>基于对平台交互逻辑的观察，以下是几个比较自然的用法：</p>
+  <ul>
+    <li><strong>日常快速查阅</strong> —— 早间或晚间花 3–5 分钟浏览重点赛果，无需登录或注册即可看到大部分内容。</li>
+    <li><strong>赛前信息收集</strong> —— 点击具体赛事可查看历史交锋、近期状态等参考数据，辅助你形成自己的判断。</li>
+    <li><strong>深度阅读</strong> —— 平台偶尔会发布战术分析或人物特写，文章篇幅适中，适合在休息时完整阅读。</li>
+  </ul>
+  <p>另外，建议首次使用的朋友先体验「热门赛事」板块，再根据兴趣订阅球队或联赛，这样信息流会更贴合个人偏好。</p>
+
+  <!-- 可信但克制的访问说明 -->
+  <h2>访问提醒</h2>
+  <div class="reminder-box">
+    <p>▸ 平台目前支持浏览器直接访问，移动端适配良好。如果你在手机端使用，建议保持系统浏览器为最新版本，以获得更好的布局体验。</p>
+    <p>▸ 部分数据接口或社区功能可能需要注册账号，但基础的赛事浏览与搜索无需登录。</p>
+    <p>▸ 请注意合理安排在线时间，体育资讯虽好，也不妨偶尔放下屏幕，亲身走向运动场。</p>
+  </div>
+
+  <!-- FAQ 摘要 -->
+  <h2>常见疑问摘要</h2>
+  <div class="faq-item">
+    <strong>需要付费吗？</strong>
+    <p>日常赛事数据、文章浏览均为免费。平台未设置强制订阅或隐藏收费项，未来若有增值服务会在明显位置告知。</p>
+  </div>
+  <div class="faq-item">
+    <strong>数据更新速度如何？</strong>
+    <p>主流联赛的实时比分延迟通常在 1–2 分钟以内，非热门赛事可能稍有延迟，但整体时效性可以满足大部分观赛需求。</p>
+  </div>
+  <div class="faq-item">
+    <strong>是否提供多语言版本？</strong>
+    <p>目前界面以中文为主，部分球队或赛事名称保留英文。暂未发现完整的多语言切换开关。</p>
+  </div>
+
+  <hr>
+
+  <!-- 自然嵌入链接的句子 -->
+  <p style="font-size: 0.95rem; color: #4a4a4a;">如果你觉得以上介绍基本匹配你的需求，不妨直接试试 <a href="https://m-mobile-mk.com">MK体育</a>，亲自感受它的页面节奏与信息密度。适合别人的不一定适合你，亲身体验才是最好的判断方式。</p>
+
+  <div class="footer-note">
+    MK体育 · 产品说明页 · 仅作信息参考
+  </div>
+
+</div>
+</body>
+</html>
